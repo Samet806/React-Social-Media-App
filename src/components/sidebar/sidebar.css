@@ -1,0 +1,60 @@
+/* sidebar.css */
+
+.sidebar {
+    flex: 3;
+    height: calc(100vh - 50px);
+    cursor: pointer;
+   
+    position: sticky;
+    top: 50px;
+}
+.sidebar:hover{
+    overflow-y: scroll;
+}
+
+.sideWrapper {
+    padding: 20px;
+}
+
+.sedebarList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.sidebarListItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sidebarIcon {
+    margin-right: 15px;
+}
+
+
+
+.sidebarButton {
+    width: 150px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin-left: 40px;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+.sidebarButton:hover{
+    cursor: pointer;
+    background-color: dimgray;
+    color: white;
+}
+
+.sidebarHr {
+    margin: 20px 0;
+}
+
+.sidebarFriendList {
+   
+    margin: 0;
+    list-style: none;
+}
+
